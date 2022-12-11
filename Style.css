@@ -1,0 +1,628 @@
+body{
+    font-family: "vazir";
+    font-size: 100%;
+    background-color: #f4f4f4;
+    box-sizing: border-box;
+}
+header{
+   padding: 5px 20px;
+   box-sizing: border-box;
+   width: 100%;
+   padding: 0 5px;
+   white-space: nowrap;
+}
+header div{
+    display: inline-block;
+}
+header img{
+    display: inline-block;
+}
+header .header-Phonenumber{
+    padding:10px 10px;
+    font-family: "vazir";
+    display: block;
+    color: #4b4b4b;
+    text-align: left;
+}
+/* nav */
+nav{
+    background-color: #f4f4f4;
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    z-index: 1;
+    box-sizing: border-box;
+    box-shadow: 0px 20px 20px rgb(0 0 0 / 10%);
+    max-width: 100%;
+    padding: 10px;
+}
+
+nav ul.nav-ul{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0px auto;
+}
+nav li{
+    display: inline-block;
+    font-size: 1.1em;
+    font-family: "vazir";
+}
+nav li.btndownload{
+    width: 9%;
+    text-align: center;
+    padding: 5px 20px;
+}
+nav li.btndownload a{
+    font-size: 0.8em;
+    font-family :"vazir";
+    color: #f4f4f4;
+}
+nav li.search{
+    width: 20%;
+}
+nav li.nav-menu1{
+    width: 45%;
+    padding: 0 10px;
+    text-align: center;
+}
+nav li.nav-logo{
+    width: 8%;
+    text-align: right;
+}
+ul.nav-menu{
+    
+    white-space: nowrap;
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+nav li.menu-item{
+    width: 25%;
+    display: inline-block;
+    padding: 5px 0;
+    border: 2px solid #f4f4f4;
+}
+nav a{
+    text-decoration: none;
+    color: #222121;
+}
+
+nav img{
+    width: 8%;
+    padding: 0.5em;
+    display: inline-block;
+}
+nav form{
+    display: inline-block;
+}
+nav form input{
+    max-width: 100%;
+    margin-top: 10px;
+    border: 2px solid whitesmoke;
+    border-radius: 8px;
+    text-align: right;
+    font-family: "vazir";
+    font-size: .8em;
+    padding: 5px 2px;
+}
+nav li.nav-logo{
+    text-align: right;
+}
+nav li.nav-logo img{
+    width: 2em;
+}
+/*end nav*/
+/*banner*/
+.banner{
+    position: relative;
+}
+.banner h2{
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 100px;
+    font-family: "vazir";
+    font-size: 40px;
+    color: #4b4b4b;
+   
+}
+.banner img{
+    max-width: 100%;
+}
+.banner ul {
+    position: absolute;
+   left: 5%;
+   right: 5%;
+    top: 75%;
+    text-align: center;
+    max-width: 100%;
+    margin: 40px auto;
+    white-space: nowrap;
+}
+.banner li{
+    
+    display: inline-block;
+    width: 23%;
+    margin : 25px 5%;
+    height: 250px;
+    box-sizing: border-box;
+}
+.banner div{
+    background-color: #f4f4f4b7;
+    
+    border: 2px solid whitesmoke;
+    border-radius: 5px;
+    width: 100%;
+    padding: 1em;
+    margin: 0 auto;
+    text-align: center;
+}
+.banner div p{
+    width: 100%;
+    margin: 0 auto;
+    white-space: normal;
+}
+/*end baner*/
+/* main */
+main{
+    margin: 10em 0 5em 0;
+    position: relative;
+    
+}
+img.pic-Shadow{
+    max-width: 100%;
+    box-shadow: 0px 20px 80px rgb(0 0 0 / 10%);
+}
+main img{
+    width: 100%;
+    display: block;
+}
+div.main-form1{
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 2%;
+    width: 100%;
+}
+main .main-form2{
+    white-space: nowrap;
+    max-width: 1200px;
+    margin: 0px auto;
+    padding: 20px 0;
+}
+main .item-form{
+    width: 50%;
+    display: inline-block;
+    padding: 0 20px;
+    box-sizing: border-box;
+}
+
+/* main form */
+main form{
+    background-color: #f4f4f4;
+    border-radius: 8px;
+    display: inline-block;
+    width: 100%;
+}
+main form h3{
+    font-family: "vazir";
+    font-size: 1.5em;
+    text-align: right;
+    margin: 1.2em 1em;
+}
+main form ul{
+    white-space: nowrap;
+    max-width: 100%;
+    margin: 0px 0.7em;
+}
+main form li{
+    width: 50%;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: right;
+}
+main form li div{
+    display: block;
+    width: 95%;
+    font-family: "vazir";
+    font-size: 1em;
+}
+.form-txt{
+    width: 100%;
+    border: 2px solid #c4c4c4;
+    border-radius: 8px;
+    font-family: "vazir";
+    font-size: 1em;
+    background: #f7f7f7;
+    color: #787878;
+    height: 35px;
+}
+.form-txt-info{
+    text-align: right;
+    padding: 0px 20px 0px 13px;
+}
+.line4{
+    text-align: right;
+    padding: 0.8em 1em;
+}
+/*end main-form */
+/*rightimage-formcontactsus*/
+main .rightimage-formcontactsus{
+    text-align: right;
+    vertical-align: top;
+}
+.rightimage-formcontactsus div.right-items{
+    width: 100%;
+    display: inline-block;
+}
+main .rightimage-formcontactsus h3{
+    color: #6f88fc;
+    font-family: "vazir";
+    font-size: 2.1em;
+    padding-right: 20px;
+}
+main .rightimage-formcontactsus div.paragraph{
+    font-family: "vazir";
+    font-size: 1.1em;
+    color: #4b4b4b;
+    padding-right: 20px;
+}
+/* end rightimage-formcontactsus*/
+/*end main*/
+/*ection-download-software*/
+.btn{
+    background-color: #6f88fc;
+    font-family: "vazir";
+    width: 10em;
+    border: 1px solid #4d6aec;
+    border-radius: 8px;
+    color: #f4f4f4;
+}
+.section-download-software{
+    background-color: #f4f4f4;
+    text-align: right;
+    max-width: 100%;
+    width: 1200px;
+    margin: 20px auto;
+    padding: 3em;
+    box-sizing: border-box;
+    position: relative;
+}
+.section-download-software h3{
+    font-family: "vazir";
+    font-size: 2em;
+    color: #6f88fc;
+
+}
+.section-download-software p{
+    padding-left: 20em;
+    color: #4b4b4b;
+    line-height: 2em;
+}
+.section-download-software div{
+    text-align: center;
+    padding: 0.8em 1em;
+    position: absolute;
+    bottom: 30%;
+    left: 5%;
+    cursor: pointer;
+}
+/* end ection-download-software*/
+/* footer*/
+footer{
+    background-color: #f0ebeb;
+   max-width: 100%;
+   margin: 80px auto;
+   padding: 0 40px;
+   box-sizing: border-box;
+}
+footer ul{
+    white-space: nowrap;
+    max-width: 100%;
+    margin: 0 1em;
+}
+footer li{
+    white-space: nowrap;
+    width: 33%;
+    font-family: "vazir";
+    font-size: 1.2em;
+    text-align: center;
+    vertical-align: top;
+    height: 120px;
+    display: inline-block;
+    padding: 2em 0;
+}
+footer .social-media img{
+    width: 1.5em;
+}
+footer .contact-us p{
+    font-size: 0.7em;
+    color: #787878;
+}
+footer .logo img{
+    width: 4em;
+}
+.Site-rights{
+    text-align: center;
+    font-family: "vazir";
+    font-size: 0.8em;
+    color: #787878;
+    padding: 0.8em;
+}
+/*end footer*/
+/*  Peseudo clasess */
+.banner div:hover{
+    position: relative;
+    top: -5px;
+    background-color: #f4f4f4e8;
+}
+.input-focuse:focus{
+    border: 2px solid rgba(5, 49, 248, 0.918);
+    border-radius: 5px;
+    outline: none;
+    background-color: #f0ececef;
+    text-align: right;
+}
+.btn:hover{
+    background-color: rgb(16, 211, 16);
+}
+.menu-item:hover{
+    background-color: #99abfa;
+    border: 2px solid rgb(88, 4, 172);
+    border-radius: 5px;
+}
+/* responsive style */
+@media screen and ( max-width : 1086px){
+    main .rightimage-formcontactsus h3{
+        font-size: 1.7em;
+        padding-right: 20px;
+    }
+    main .rightimage-formcontactsus div.paragraph{
+        font-size: 0.9em;
+        padding-right: 20px;
+    }
+    main form h3{
+        font-size: 1.1em;
+        margin: 0.9em 1em;
+    }
+}
+@media screen and ( max-width : 1040px){
+    nav ul{
+        width: 100%;
+    }
+    nav li.search img{
+        width: 1rem;
+    }
+    nav .btndownload{
+        visibility: hidden;
+    }
+}
+
+@media screen and ( max-width : 1016px){
+    .section-download-software div{
+        position: absolute;
+        bottom: 37%;
+        left: 5%;
+    }
+    div.main-form1{
+        padding: 0 15px;
+        position: absolute;
+        bottom: 0.5%;
+    }
+}
+@media screen and ( max-width : 980px){
+    div.main-form1{
+        padding: 0 15px;
+        position: absolute;
+        top: 2px;
+    }
+    .banner ul{
+        margin-bottom: 40px;
+    }
+    .banner ul {
+        position: absolute;
+        left: 5%;
+        right: 5%;
+        top: 60%;
+       
+    }
+    .banner li{
+        vertical-align: top;
+    }
+}
+@media screen and ( max-width : 960px) {
+    .banner {
+        margin-bottom: 200px;
+    }
+    main{
+        text-align: center;
+        box-sizing: border-box;
+        position: relative;
+        height: 48rem;
+    }
+    main .pic-Shadow{
+        visibility: hidden;
+    }
+    main .item-form{
+        display:block ;
+        padding: 20px 20px;
+        width: 70%;
+        margin: 0 auto;
+        text-align: center;
+
+    }
+    main .item-form .res-text{
+        padding-left: 20px;
+    }
+    div.main-form1{
+        padding: 0 20px;
+        box-sizing: border-box;
+    }
+    .section-download-software p{
+        padding-left: 15rem;
+    }
+}
+@media screen  and (max-width : 880px){
+    main{
+        height: 45rem;
+    }
+}
+@media screen  and (max-width : 800px){
+    main{
+        height: 42rem;
+    }
+}
+
+@media screen and (max-width : 640px){
+    .section-download-software p{
+        padding-left: 0;
+    }
+    .section-download-software .btn{
+        margin: 30px 0 0 30px;
+        display: block;
+        position: absolute;
+        bottom: -10px;
+        left: 0;
+    }
+    main{
+        height: 38rem;
+    }
+}
+@media screen and (max-width : 600px){
+    nav{
+        width: 100%;
+        margin: 0px ;
+        padding: 10px 0 30px 0;
+    }
+    nav ul.nav-ul{
+        white-space: normal;
+        margin:0 0px;
+        box-sizing: border-box;
+        padding: 10px 0;
+    }
+    nav li{
+        display: block;
+    }
+    nav li.nav-logo{
+        margin: 0 auto;
+        width: 100%;
+        padding: 0px;
+        text-align: center;
+    }
+    nav li.nav-logo img{
+        width: 5em;
+        margin: 0px auto;
+    }
+    nav li.btndownload{
+        width: 10rem;
+        padding: 5px;
+        margin: 20px auto;
+        box-sizing: border-box;
+    }
+    nav li.nav-menu1{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+    nav .nav-menu{
+        box-sizing: border-box;
+        margin: 0px;
+        width: 100%;
+        display: block;
+        max-width: 100%;
+    }
+    nav li.menu-item{
+        width: 100%;
+        display: block;
+        margin: 10px auto;
+    }
+    nav li.menu-item a{
+        width: 100%;
+    }
+    nav li.search{
+
+        white-space: nowrap;
+        width: 100%;
+        margin: 0 auto;
+        box-sizing: border-box;
+        text-align: right;
+    }
+    nav .search .img-search{
+        display: inline-block;
+        width: 7%;
+        padding: 0 10px;
+    }
+    nav .search .form-search{
+        display: inline-block;
+        width: 80%;
+        margin: 0 auto;
+        padding: 0 10px;
+        box-sizing: border-box;
+    }
+    nav form #nav-txtsearch{
+        display: inline-block;
+        width: 95%;
+        margin: 0px;
+        padding: 2px;
+        text-align: center;
+    }
+    nav .btndownload{
+        visibility: visible;
+    }
+    .banner{
+        margin: 0px;
+    }
+    .banner ul {
+        margin: 0px auto;
+        width: 100%;
+        position: static;
+        white-space: normal;
+        box-sizing: border-box;
+    }
+    .banner li{
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        margin :auto;
+    }
+    .banner div.column {
+        box-sizing: border-box;
+        display: block;
+        width: 100%;
+        margin :auto;
+    }
+    main{
+        margin: 0%;
+        height: 800px;
+    }
+    div.main-form1{
+        padding: 0%;
+    }
+    main .item-form{
+        padding: 0%;
+        margin: 2rem auto;
+        width: 100%;
+
+    }
+    .form-txt-info {
+        padding: 0px;
+        box-sizing: border-box;
+        margin: 0 0.8rem 0 1rem;
+    }
+    .form-txt-info #txtinfo{
+        display: inline-block;
+        max-width: 100%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width : 560px){
+    footer ul{
+        margin: 0;
+    }
+    footer li{
+        white-space: normal;
+        width: 100%;
+        display: block;
+    }
+    
+}
